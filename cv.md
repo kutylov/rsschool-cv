@@ -26,7 +26,8 @@ https://kutylov.github.io/study_signInForm/
 ###Code example:
 Given an integer x, return true if x is a palindrome, and false otherwise.
 
-```const isPalindrome = function(x) {
+```
+const isPalindrome = function(x) {
     if (x < 0) return false;
         
     let str = x.toString()
