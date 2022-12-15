@@ -13,14 +13,14 @@
 }
 
 section {
-  background-color: #9f9f9f;
+  background-color: #bdbdbd;
   max-width: 900px;
   margin: 0 auto;
 }
 
 section h2 {
-  padding: 20px;
-  background-color: #bdbdbd;
+  padding: 10px 20px;
+  background-color: #9f9f9f;
   color: #424242;
 }
 
@@ -71,9 +71,23 @@ section p {
   letter-spacing: .1rem;
 }
 
-.about {}
+.contacts-and-skills {
+  display: flex;
+}
 
-.about p {
+.contacts-and-skills ul {
+  list-style: none;
   padding: 10px 20px;
-  line-height: 1.5;
+}
+
+.contacts-and-skills li {
+  padding: 5px 0;
+}
+
+.contacts-and-skills .contacts {
+  width: 50%;
+}
+
+.contacts-and-skills .skills {
+  width: 50%;
 }
