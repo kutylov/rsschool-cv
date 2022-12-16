@@ -91,3 +91,14 @@ section p {
 .contacts-and-skills .skills {
   width: 50%;
 }
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #424242;
+}
+
+.footer-container img {
+  width: 100px;
+}
