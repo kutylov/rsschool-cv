@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+section {
+  background-color: #bdbdbd;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section h2 {
+  padding: 10px 20px;
+  background-color: #9f9f9f;
+  color: #424242;
+}
+
+section p {
+  padding: 10px 20px;
+  line-height: 1.5;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #424242;
+}
+
+.header-container .header-info {
+  color: #fff;
+  margin-left: 30px;
+}
+
+.header-container .header-img {
+  width: 230px;
+  opacity: .9;
+  border-radius: 3px;
+}
+
+.header-container .header-line {
+  height: 6px;
+  width: 400px;
+  margin: 12px 0;
+  background-color: #f4f4f4;
+}
+
+.header-container .header-info h1 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+}
+
+.header-container .header-info h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: .1rem;
+}
+
+.contacts-and-skills {
+  display: flex;
+}
+
+.contacts-and-skills ul {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.contacts-and-skills li {
+  padding: 5px 0;
+}
+
+.contacts-and-skills .contacts {
+  width: 50%;
+}
+
+.contacts-and-skills .skills {
+  width: 50%;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #424242;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-container a:visited {
+  color: black;
+}
+
+.footer-container img {
+  width: 100px;
+}
