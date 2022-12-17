@@ -10,6 +10,7 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 section {
@@ -95,8 +96,18 @@ section p {
 .footer-container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 20px;
   background-color: #424242;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-container a:visited {
+  color: black;
 }
 
 .footer-container img {
