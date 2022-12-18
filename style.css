@@ -72,6 +72,15 @@ section p {
   letter-spacing: .1rem;
 }
 
+.project a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.project a:visited {
+  color: #f4f4f4;
+}
+
 .contacts-and-skills {
   display: flex;
 }
